@@ -1,8 +1,23 @@
+import { CallToAction } from "@/components/CallToAction/CallToAction";
+import { Hero } from "@/components/Hero/Hero";
+import { HowWeWok } from "@/components/HowWeWork/HowWeWork";
+import { Technologies } from "@/components/Technologies/Technologies";
+import { Testimonials } from "@/components/Testimonials/Testimonials";
+import { Footer } from "@/shared/Footer/Footer";
+import { Header } from "@/shared/Header/Header"
+
 export default function Home() {
   return (
-    <section>
-      <h1>Boilerplate Next.js</h1>
-      <p>Bem-vindo ao seu novo projeto!</p>
-    </section>
+    <div>
+      <Header />
+      <section>
+        < Hero />
+        < Technologies />
+        < Testimonials/>
+        < HowWeWok />
+        < CallToAction />
+        < Footer />
+      </section>
+    </div>
   );
 }

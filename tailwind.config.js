@@ -2,7 +2,7 @@ import defaultTheme from 'tailwindcss/defaultTheme';
 import lineClamp from '@tailwindcss/line-clamp';
 
 const config = {
-  content: ['./src/app/**/*.{js,ts,jsx,tsx,mdx}'],
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
       screens: {
@@ -42,6 +42,9 @@ const config = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
         roboto: ['var(--font-roboto)', 'sans-serif'],
+        barlow: ['"Barlow"', 'sans-serif'],
+        barlowCondensed: ['var(--font-barlow-condensed)', 'sans-serif'],
+        barlowSemiCondensed: ['var(--font-barlow-semi-condensed)', 'sans-serif'],
       },
     },
   },
