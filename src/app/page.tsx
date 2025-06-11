@@ -1,4 +1,5 @@
 import { CallToAction } from "@/components/CallToAction/CallToAction";
+import FloatingChat from "@/components/FloatingChat/FloatingChat";
 import { Hero } from "@/components/Hero/Hero";
 import { HowWeWok } from "@/components/HowWeWork/HowWeWork";
 import { Technologies } from "@/components/Technologies/Technologies";
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <section>
         < Hero />
+        < FloatingChat />
         < Technologies />
         < Testimonials/>
         < HowWeWok />
